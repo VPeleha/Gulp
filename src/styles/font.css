@@ -1,0 +1,38 @@
+@font-face{
+    font-family:'Montserrat-Regular';
+    src:url('/Fonts/Montserrat/Montserrat-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'Montserrat-Medium';
+    src:url('/Fonts/Montserrat/Montserrat-Medium.ttf')
+}
+
+@font-face{
+    font-family: 'Montserrat-Bold';
+    src:url('/Fonts/Montserrat/Montserrat-Bold.ttf')
+}
+@font-face{
+    font-family:'Roboto-Regular';
+    src:url('/Fonts/Roboto/Roboto-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'Roboto-Medium';
+    src:url('/Fonts/Roboto/Roboto-Medium.ttf')
+}
+
+@font-face{
+    font-family: 'Roboto-Bold';
+    src:url('/Fonts/Roboto/Roboto-Bold.ttf')
+}
+@font-face{
+    font-family: 'Roboto-Light';
+    src:url('/Fonts/Roboto/Roboto-Light.ttf')
+}
+
+@font-face{
+    font-family: 'Roboto-Thin';
+    src:url('/Fonts/Roboto/Roboto-Thin.ttf')
+}
+

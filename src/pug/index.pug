@@ -1,0 +1,109 @@
+
+extends common/layout
+
+block content 
+    main.main
+    .container.dream-block
+    h3 How Dreamshare works?
+    .row
+      .container.col-12.col-md-12.col-lg-9
+        .row.m-custom-tab
+          .col-12.col-md-4.col-lg-4.step-row
+            .step1
+              .step-block
+                p.step-block__btn-step.btn-custum-page(<button='', type='button') STEP 1
+                h4.step-block__caption1 Sed leo enim, condimentum
+                p.step-block__text
+                  | Quisque libero libero, doctum non turpis in, luctus semper lorem. Donec rhoncus
+                  | a leo sit amet fascilisis.
+          .col-12.col-md-4.col-lg-4.step-row
+            .step2
+              .step-block.block-2
+                p.step-block__btn-step.btn-custum-page(<button='', type='button') STEP 2
+                h4.step-block__caption Morbi velit risus
+                p.step-block__text
+                  | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet
+                  | porttitor est.
+          .col-12.col-md-4.col-lg-4.step-row2
+            .step3
+              .step-block
+                p.step-block__btn-step.btn-custum-page(<button='', type='button') STEP 3
+                h4.step-block__caption1 Sed leo enim, condimentum
+                p.step-block__text
+                  | Quisque libero libero, doctum non turpis in, luctus semper lorem. Donec rhoncus
+                  | a leo sit amet fascilisis.
+    .container.partners-block
+    h3.text-meet Meet a partner for your best holiday
+    .container
+      .row
+        .container.col-12.col-lg-9
+          .row.avatar-row
+            .col-12.col-md-6.col-lg-3
+              .avatar-block1
+                .avatar-1
+                h5 Bredley Hunter
+                p.partners-text Based in Chicago. I love playing tennis and loud music.
+            .col-12.col-md-6.col-lg-3.order-sm-0.order-lg-2
+              .avatar-block
+                .avatar-3
+                h5 Diana Wells
+                p.partners-text
+                  | Living in Athins, Greece. I love blacl adn white classics, chillout
+                  | music and green tea.
+            .col-12.col-md-6.col-lg-3.order-sm-2.order-lg-1
+              .avatar-block2
+                .avatar-2
+                h5 Marie Bennet
+                p.partners-text
+                  | Currenly living in Colorado. Love of art, languages and travelling.
+            .col-12.col-md-6.col-lg-3.order-sm-3
+              .avatar-block
+                .avatar-4
+                h5 Christopher Pierce
+                p.partners-text
+                  | Star Wars fanatic. I have a persistent enthusiasm to crate new things.
+          .btn-partners
+            button.btn-partners-block.btn-custum-page(type='button') See other partners
+    .container.holiday-ideas
+    h3.holiday-ideas__text Discover holiday activity ideas
+    .container
+      .row
+        .container.col-12.col-md-12.col-lg-9.ideas-block
+          .row
+            .col-12.col-md-4.col-lg-4
+              .img-fluid.shadow-1-strong.mb-custom.ideas-block__sport
+                h4.ideas-block__text Sports and Activis
+            .col-12.col-md-4.col-lg-4
+              .img-fluid.shadow-1-strong.mb-custom.ideas-block__health
+                h4.ideas-block__text2 Wellness and Health
+            .col-12.col-md-4.col-lg-4
+              .img-fluid.shadow-1-strong.mb-custom.ideas-block__extreem
+                h4.ideas-block__text3
+                  | Extreem Sports 
+                  br
+                  |  and Expections
+          .row
+            .col-12.col-md-4.col-lg-4
+              .img-fluid.shadow-1-strong.mb-custom.ideas-block__games
+                h4.ideas-block__text4 Games
+            .col-12.col-md-8.col-lg-8
+              .img-fluid.shadow-1-strong.mb-custom.ideas-block__culture
+                h4.ideas-block__text Culture and Education
+          .row.block-3
+            .col-12.col-md-8.col-lg-8
+              .img-fluid.shadow-1-strong.mb-custom2.ideas-block__relax
+                h4.ideas-block__text5 Enjoment and Relaxation
+            .col-12.col-md-4.col-lg-4
+              .img-fluid.shadow-1-strong.mb-custom2.ideas-block__trevel
+                h4.ideas-block__text7 Trevelling
+    .container.interest-block
+    h3.interest-block__capt-text Create your holiday activity
+    p.interest-block__text Hi! What are your holiday interests?
+    .row.search-block
+      .container.col-12.col-lg-6
+        .row.search-block
+          .col-12.col-md-7
+            input.text-search.search-custom(type='search', placeholder='Enter your interests')
+            p
+          .col-12.col-md-5
+            input.btn-custum-page.search-block__btn-search(type='submit', value='Search partners')
